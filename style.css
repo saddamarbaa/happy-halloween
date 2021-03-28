@@ -1,0 +1,32 @@
+/** @format */
+:root {
+	--black: black;
+	--orangered: orangered;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Permanent Marker", cursive;
+}
+
+.halloween {
+	height: 100vh;
+	background-color: var(--black);
+}
+
+.halloween_letters {
+	position: absolute;
+	top: 0;
+	color: var(--orangered);
+	left: 0;
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	padding-top: 15%;
+	letter-spacing: 0.2em;
+	background: transparent;
+}

@@ -16,6 +16,17 @@ body {
 .halloween {
 	height: 100vh;
 	background-color: var(--black);
+	position: relative;
+}
+
+.halloween_video {
+	object-fit: cover;
+	display: block;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 
 .halloween_letters {
@@ -29,4 +40,34 @@ body {
 	padding-top: 15%;
 	letter-spacing: 0.2em;
 	background: transparent;
+}
+
+.halloween_letters span {
+	opacity: 0;
+	animation: animate 1s linear forwards;
+	-webkit-animation: animate 1s linear forwards;
+}
+
+@keyframes animate {
+	0% {
+		opacity: 0;
+		transform: rotateY(90deg);
+		-webkit-transform: rotateY(90deg);
+		-moz-transform: rotateY(90deg);
+		-ms-transform: rotateY(90deg);
+		-o-transform: rotateY(90deg);
+		filter: blur(1);
+		-webkit-filter: blur(1);
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotateY(90deg);
+		-webkit-transform: rotateY(90deg);
+		-moz-transform: rotateY(90deg);
+		-ms-transform: rotateY(90deg);
+		-o-transform: rotateY(90deg);
+		filter: blur(0);
+		-webkit-filter: blur(0);
+	}
 }

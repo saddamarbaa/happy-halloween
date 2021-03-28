@@ -3,10 +3,11 @@
 Happy Halloween Project (Built With HTML, CSS, JavaScript) 
 
 
-### <a href=" https://saddamarbaa.github.io/happy-halloween/index.html">LIVE DEMO</a>
+### <a href="https://saddamarbaa.github.io/happy-halloween/index.html">LIVE DEMO</a>
 
 
-![image](https://user-images.githubusercontent.com/51326421/112764464-cc94cb00-9032-11eb-9855-4ff3c9fad510.png)
+![image](https://user-images.githubusercontent.com/51326421/112764583-60669700-9033-11eb-803b-c8fafa037aa9.png)
+
 
 
 
